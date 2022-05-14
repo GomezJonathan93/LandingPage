@@ -1,0 +1,51 @@
+@import "utilities/variables";
+
+body{
+    background-color: $color-secundario;
+}
+/*trabajo en 480p*/
+/*titulo*/
+.div-titulo{
+    background-color: $color-principal;
+    color: $color-secundario;
+    h1{
+        text-align: center;
+        font-family: $letra-titulos;
+        font-size: 4rem;
+    }
+    h2{
+        text-align: end;
+        font-family: $letra-titulos;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+}
+/*tecnologias*/
+.logos-tecnologias{
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        li{
+            font-size: 2.5rem;
+            color: $color-principal;
+        }
+    }
+}
+/*navbar*/
+.barra-navegacion{
+    ul{
+        display: flex;
+        list-style: none;
+        background-color: $color-principal;
+        justify-content: space-evenly;
+        a{
+            text-decoration: none;
+            li{
+                font-size: 1rem;
+                color: $color-secundario;
+                font-family: $letra-titulos;
+            }
+        }
+    }
+}
