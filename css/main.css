@@ -1,3 +1,7 @@
+.parrafo-sobre-mi {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
 body {
   background-color: #F1F1F1; }
 
@@ -37,3 +41,29 @@ body {
       font-size: 1rem;
       color: #F1F1F1;
       font-family: "Cormorant Garamond", serif; }
+
+/*foto y el sobre mi*/
+.foto-sobre-mi {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .foto-sobre-mi img {
+    height: 150px;
+    width: 120px;
+    margin-bottom: 1.5rem; }
+
+.parrafo-sobre-mi {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #F1F1F1;
+  background-color: #7070EF;
+  text-align: center; }
+  .parrafo-sobre-mi h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3rem; }
+  .parrafo-sobre-mi p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem; }
+
+/*ESTUDIOS*/
